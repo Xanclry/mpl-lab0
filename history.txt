@@ -1,0 +1,47 @@
+$ git init
+
+$ git add .
+
+$ git commit -m "Added readme file"
+
+$ git remote add origin https://github.com/Xanclry/mpl-lab0.git
+
+$ git push --set-upstream origin master
+
+$ git branch develop
+
+$ git checkout develop
+
+$ git push --set-upstream origin develop
+
+$ git checkout -b branch1
+
+$ git add .
+
+$ git commit -m "Added the first line"
+
+$ git push --set-upstream origin branch1
+
+$ git checkout develop
+
+$ git merge branch1
+
+$ git push
+
+///////// second folder /////////////
+
+$ git checkout develop
+
+$ git merge branch2
+
+$ git pull
+
+..... solving the merge conflict .....
+
+$ git add .
+
+$ git commit -m "Merge commit"
+
+$ git push
+
+////////////////////////////////
